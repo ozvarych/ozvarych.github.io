@@ -49,7 +49,7 @@ $(document).ready(function() {
 	});
 
 	$(".iconHomeCircle").click(function(){
-		window.location = 'Home.html';
+		window.location = 'index.html';
 	});
 	var index = window.location.toString().lastIndexOf("/") + 1; 
 	var fileName = window.location.toString().substr(index);
