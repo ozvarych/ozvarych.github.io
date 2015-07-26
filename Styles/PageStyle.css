@@ -1,0 +1,110 @@
+/*PAGE DIVISIONS*/
+
+#container {
+   min-height:100%;
+   position:relative;
+   background-color: #F5F5F5;
+   margin: 40px;
+}
+
+#header {
+   padding:10px;
+}
+
+.header {
+   width: 60%;
+   height:auto;
+   margin-left: 20%;
+   margin-top: 6em;
+}
+
+.homeButton {
+   float:right;
+   /*padding-left: 20%;*/
+   width:20%;
+}
+
+#icons {
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   height:auto;
+   display: block;
+   position: relative;
+   text-align:center;
+}
+
+#body {
+   padding-bottom:32em;   /* Height of the footer */
+   height: auto;
+}
+
+.content
+{
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   text-align: center;
+}
+
+.text {
+   width:50%;
+   margin-right: auto;
+   margin-left: auto; 
+   text-align: left;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:32em;   /* Height of the footer */
+}
+
+.footer {
+   width: 60%;
+   height:auto;
+   float:right;
+   margin-left: 20%;
+   margin-right: 20%;
+   text-align: right;
+}
+
+
+
+@media screen and (max-width: 1200px) { 
+
+#header {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  margin-left:0%;
+}
+
+#icons {
+  width: 100%;
+}
+
+#body {
+  width: 100%;
+}
+
+.text {
+  width: 90%;
+}
+
+#footer {
+  width: 100%;
+}
+
+.footer {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+}

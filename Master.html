@@ -1,0 +1,56 @@
+<%@ Master AutoEventWireup="true"  %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="styleshee" type="text/css" />
+    <link href="~/Styles/Master.css" rel="stylesheet" type="text/css" />    
+    <link href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet" >
+
+    <script src="Scripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">        
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="main">
+
+          <div class="accentStrip"></div>
+          <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+
+
+
+            <div class="navMenu">
+                <div class="navMenuContent">
+                    <div class="navMenuItem"><a href="~/Default.aspx" ID="navHomeItem" runat="server"><asp:literal ID="Literal1" runat="server" Text="<%$ Resources: ResourceString, NavMenuHome %>"/></a></div>
+                    <div class="navMenuItem"><a href="~/About.aspx" ID="navAboutItem" runat="server"><asp:literal ID="Literal2" runat="server" Text="<%$ Resources: ResourceString, NavMenuAbout %>"/></a></div>  
+                    <div class="navMenuItem"><a href="~/Pics.aspx" ID="navPicsItem" runat="server"><asp:literal ID="Literal3" runat="server" Text="<%$ Resources: ResourceString, NavMenuIllustrations %>"/></a></div>
+                    <div class="navMenuItem"><a href="~/Web.aspx" ID="navWebItem" runat="server"><asp:literal ID="Literal4" runat="server" Text="<%$ Resources: ResourceString, NavMenuWeb %>"/></a></div>
+                </div>
+            </div>
+
+
+               
+             <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+             
+          </div>
+     </div>
+
+     <div id="footer">
+         <asp:ContentPlaceHolder ID="phdSecondaryCont" runat="server">
+                <asp:PlaceHolder runat="server" ID="phdConnectContent"></asp:PlaceHolder>
+         </asp:ContentPlaceHolder>
+         <asp:ContentPlaceHolder ID="phdNavFooter" runat="server">
+            <div class="navFooter">
+                <div class="navFooterItem">
+                    <asp:literal ID="Literal5" runat="server" Text="<%$ Resources: ResourceString, NavFooterDescription %>"/>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

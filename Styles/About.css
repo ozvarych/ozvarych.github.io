@@ -1,0 +1,27 @@
+/*.boxContainer {
+   margin-right: auto;
+   margin-left: auto;
+   width: 50%;
+   height:auto;
+   display: block;
+   position: relative;
+   text-align:center;
+}
+
+.box {
+    border: 3px solid #1B1E25;
+    text-align: left;
+    padding: 1%;
+    margin: 2%;
+    overflow:hidden;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.quarter { width: 23%; }
+.third { width: 31.33%; }
+.half { width: 42%; }
+.threeQuarters { width: 73%; }
+.whole { width: 91%; }
+
+*/
