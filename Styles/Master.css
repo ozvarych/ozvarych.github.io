@@ -5,6 +5,7 @@ body {
    height:100%;
    width:100%;
    font-size: 1em;   
+   font-weight: 300;
    font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
    color: #696969;
    min-height: 480px;
@@ -263,8 +264,6 @@ img {
   z-index: 150;
 }
 
-
-
 /*OTHER MEDIA*/
 
 @media screen and (max-width: 1200px) { 
@@ -284,7 +283,6 @@ img {
 }
 
 @media screen and (max-width: 960px) { 
-
 
 }
 
@@ -307,7 +305,6 @@ img {
   width: 66%;
   float: right;
 }
-
 
 .quarter { width: 23%; }
 .third { width: 31.33%; }

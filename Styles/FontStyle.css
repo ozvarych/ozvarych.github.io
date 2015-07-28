@@ -4,10 +4,9 @@ h1
 {
 	font-size: 4.4em;
 	font-style: normal;
-  	font-weight: 400;
+  	font-weight: 300;
 	font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
 	margin: 0;
-	/*padding: 0 0 1em 0;*/
 	padding: 0;
 	color: #1B1E25;
 }
@@ -16,9 +15,9 @@ h2
 {
 	font-size: 1.4em;
 	font-style: normal;
-  	font-weight: 400;
+  	font-weight: 300;
 	font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
-	margin-left: 7em; /* Make sure linkes up with the header title */
+	margin-left: 7em; /* Make sure lines up with the header title */
 	margin-right: 0;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -31,8 +30,8 @@ h3 /* box caption text */
 {
 	font-size: 1.2em;
 	font-style: normal;
-	font-weight: 700;
-	font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
+	font-weight: 400;
+	font-family: "Open Sans", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
 	margin: 0;
 	padding: 0;
 	color: #7D7D7D;
@@ -42,7 +41,7 @@ h4 /* Torcoise text */
 {
 	font-size: 2.2em;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 	font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
 	margin: 0;
 	padding: 0;
@@ -53,9 +52,9 @@ h5
 {
 	font-size: 1.2em;
 	font-style: normal;
-  	font-weight: 400;
+  	font-weight: 300;
 	font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
-	margin-left: 4.5em; /* Make sure linkes up with the header title */
+	margin-left: 4.5em; /* Make sure lines up with the header title */
 	margin-right: 0;
 	padding: 0;
 	color: #1B1E25;
@@ -65,7 +64,7 @@ h5
 h6 {
 	font-size: 2em;
 	font-style: normal;
-  	font-weight: 400;
+  	font-weight: 300;
 	font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
 	text-align: center;
 	margin: 0 0 2em 0;
@@ -103,7 +102,7 @@ a:active
 .pageTitle {
   font-size: 5.1em;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
   margin: 0;
   padding: 0;
@@ -116,7 +115,7 @@ a:active
 p {
 	font-size: 1.4em;
 	font-style: normal;
-  	font-weight: 400;
+  	font-weight: 300;
 	font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
 	margin: 2em 0 2em 0;
 	padding: 0;
@@ -127,7 +126,7 @@ p {
 
 .underlineOrange {
   text-decoration: none;
-  border-bottom: 1px solid #ee6557; /*#16a6b6;*/
+  border-bottom: 1px solid #ee6557;
 }
 
 .orangeHighlight {
@@ -138,7 +137,7 @@ p {
 .subtitleText {
   font-size: 1.4em;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Open Sans Light", "sans-serif", "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana;
   margin: 0;
   padding: 0;
