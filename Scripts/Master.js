@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 	// Attach on click events to id
 	$(".iconContactCircle .iconResume").parent().click(function(){
-		window.open('Resources/OksanaZvarych3A.pdf', '_blank');
+		window.open('Resources/OksanaZvarych3B.pdf', '_blank');
 	});
 	$(".iconContactCircle .iconLinkedin").parent().click(function(){
 		window.open("https://www.linkedin.com/in/ozvarych");
