@@ -14,13 +14,13 @@ $(document).ready(function() {
 
 	// Attach on click events to id
 	$(".iconContactCircle .iconResume").parent().click(function(){
-		window.open('Resources/OksanaZvarych3B.pdf', '_blank');
+		window.open('Resources/OksanaZvarychWebResume.pdf', '_blank');
 	});
 	$(".iconContactCircle .iconLinkedin").parent().click(function(){
-		window.open("https://www.linkedin.com/in/ozvarych");
+		window.open("https://www.linkedin.com/in/ozvarych", '_blank');
 	});
 	$(".iconContactCircle .iconGit").parent().click(function(){
-		window.open("https://github.com/ozvarych");
+		window.open("https://github.com/ozvarych", '_blank');
 	});
 	$(".iconContactCircle .iconEmail").parent().click(function(){
 		$( "#dialog" ).dialog({
